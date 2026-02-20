@@ -2,6 +2,8 @@
 
 Phoenix LiveView components for file browsing and editing with [Monaco editor](https://microsoft.github.io/monaco-editor/).
 
+![ElixirMarkdownEditor screenshot](screenshot.png)
+
 Provides a ready-to-use file tree, code editor, and integrated file browser backed by a pluggable storage adapter. Drop it into any Phoenix LiveView app — you control where files live (filesystem, S3, database, etc.) by implementing a simple behaviour.
 
 ## Features
