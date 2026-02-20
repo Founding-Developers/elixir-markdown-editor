@@ -242,12 +242,10 @@ defmodule ElixirMarkdownEditor.Components.FileTree do
     assigns = assign(assigns, :lang, lang)
 
     ~H"""
-    <%= case @lang do %>
-      <% lang when lang in ["markdown", "plaintext"] -> %>
+    <%= cond do %>
+      <% @lang in ["markdown", "plaintext"] -> %>
         <.document_text_icon />
-      <% lang when lang in ["html", "xml"] -> %>
-        <.code_icon />
-      <% _ -> %>
+      <% true -> %>
         <.code_icon />
     <% end %>
     """
