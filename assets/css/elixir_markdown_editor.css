@@ -1,0 +1,36 @@
+/* ElixirMarkdownEditor - Structural CSS */
+
+/* File tree focus styles */
+.eme-tree-entry:focus {
+  outline: 2px solid oklch(0.546 0.245 262.881 / 0.4);
+  outline-offset: -1px;
+  border-radius: 3px;
+}
+
+.eme-tree-entry:focus-visible {
+  outline: 2px solid oklch(0.546 0.245 262.881 / 0.6);
+}
+
+/* File browser layout */
+.eme-file-browser {
+  min-height: 400px;
+}
+
+/* Smooth scroll for tree panel */
+.eme-file-browser-tree {
+  scrollbar-width: thin;
+}
+
+.eme-file-browser-tree::-webkit-scrollbar {
+  width: 6px;
+}
+
+.eme-file-browser-tree::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+
+/* Editor takes full height */
+.eme-file-editor {
+  min-height: 0;
+}
