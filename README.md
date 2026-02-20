@@ -1,5 +1,9 @@
 # ElixirMarkdownEditor
 
+[![Hex.pm](https://img.shields.io/hexpm/v/elixir_markdown_editor.svg)](https://hex.pm/packages/elixir_markdown_editor)
+[![Hex Docs](https://img.shields.io/badge/hex-docs-blue.svg)](https://hexdocs.pm/elixir_markdown_editor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Phoenix LiveView components for file browsing and editing with [Monaco editor](https://microsoft.github.io/monaco-editor/).
 
 ![ElixirMarkdownEditor screenshot](screenshot.png)
